@@ -26,6 +26,7 @@ export default function List() {
                         <th>Hp</th>
                         <th>alamat</th>
                         <th>Prodi</th>
+                        <th>Fakultas</th>
                        
                     </tr>
                 </thead>
@@ -38,7 +39,7 @@ export default function List() {
                             <td>{data.hp}</td>
                             <td>{data.alamat}</td>
                             <td>{data.prodi.nama}</td>
-                            
+                            <td>{data.prodi.fakultas.nama}</td>
                         </tr>
                     ))}
                 </tbody>
